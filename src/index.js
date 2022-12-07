@@ -21,6 +21,7 @@ console.log(modal);
 //  B- The DOM's element.onclick attribute
 launchButton.onclick = () => console.log('Why am I seeing only this?');
 //  C- element.addEventListener('click', callback)
+launchButton.addEventListener('click', () => console.log("I'll be seeing this too."))
 
 
 // 👉 TASK 3- Create a function that launches!
