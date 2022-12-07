@@ -19,6 +19,7 @@ console.log(modal);
 // 👉 TASK 2- Demo handling click events on button#launchButton, using:
 //  A- HTML inside index.html
 //  B- The DOM's element.onclick attribute
+launchButton.onclick = () => console.log('Why am I seeing only this?');
 //  C- element.addEventListener('click', callback)
 
 
